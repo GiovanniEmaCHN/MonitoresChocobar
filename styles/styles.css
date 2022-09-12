@@ -274,3 +274,29 @@ footer {
     }
 }    
 
+.imagenlogo{
+    animation-name: imagenlogo1;
+    animation-iteration-count:infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+    animation-delay: 01s;
+}
+
+@keyframes imagenlogo1{
+    0%{
+        transform: rotate(72deg);
+    }
+    25%{
+        transform: rotate(144deg);
+    }
+    50%{
+        transform: rotate(216deg);
+    }
+    75%{
+        transform: rotate(288deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
